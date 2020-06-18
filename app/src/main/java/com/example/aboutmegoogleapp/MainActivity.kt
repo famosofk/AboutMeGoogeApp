@@ -1,8 +1,8 @@
 package com.example.aboutmegoogleapp
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.LinearLayout
+import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -16,5 +16,6 @@ class MainActivity : AppCompatActivity() {
         while(5>i){
             i++
         }
+        i = 0
     }
 }
