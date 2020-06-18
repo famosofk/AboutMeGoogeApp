@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">AboutMeGoogleApp</string>
+    <string name="name_intro">Your name goes here.</string>
+    <string name="star_description">This is an image of a start.</string>
+    <string name="bio_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ullamcorper felis non nunc faucibus pharetra. Duis sed dignissim elit, quis pharetra lorem. Nulla sit amet purus ut nisl cursus porta non sed odio. Vestibulum ut interdum metus. Proin lobortis libero a enim condimentum lobortis. Duis ut lectus ut odio fermentum convallis. Donec dignissim urna gravida libero accumsan, et accumsan quam maximus.\n \n Aliquam dictum fermentum consequat. Duis semper dolor eget turpis placerat lacinia. Ut viverra neque at leo interdum mollis. Aliquam pharetra lacus metus, sed posuere odio tempus sed. Aliquam facilisis quam at enim dictum, eu luctus risus faucibus. Suspendisse vitae vehicula sem, vitae condimentum odio. Quisque varius, ligula nec facilisis placerat, velit ante pretium mauris, non consequat diam diam ut nisl. Morbi sit amet augue fermentum, blandit turpis nec, iaculis magna. Nulla eget magna nisl. Duis porttitor mollis risus, a tincidunt ipsum pellentesque sit amet. Maecenas ut turpis eleifend felis volutpat auctor sit amet eu ante. Maecenas dictum et urna quis sodales. Vestibulum pulvinar, dolor non pulvinar dignissim, justo dolor aliquam purus, at bibendum enim ipsum lacinia mauris. Suspendisse dapibus et dolor eu feugiat.
+    </string>
 </resources>

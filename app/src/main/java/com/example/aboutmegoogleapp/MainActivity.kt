@@ -11,11 +11,6 @@ class MainActivity : AppCompatActivity() {
 
         val linearLayout : LinearLayout = findViewById(R.id.linearLayout)
 
-        var i = 0
 
-        while(5>i){
-            i++
-        }
-        i = 0
     }
 }

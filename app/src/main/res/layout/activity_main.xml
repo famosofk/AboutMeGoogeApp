@@ -1,23 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/linearLayout"
     style="@style/LinearLayoutStyle"
-    tools:context=".MainActivity">
+    android:gravity="top"
+    tools:context=".MainActivity"
+    tools:ignore="UseCompoundDrawables">
 
     <TextView
         style="@style/NameStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello Android!"
+        android:layout_margin="16dp"
+        android:text="@string/name_intro"
         android:textAlignment="center" />
 
-    <TextView
-        android:id="@+id/textView"
-        style="@style/NameStyle"
+    <ImageView
+        android:id="@+id/imageView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView"
-        android:textAlignment="center" />
+        android:layout_margin="16dp"
+        android:contentDescription="@string/star_description"
+        app:srcCompat="@android:drawable/btn_star_big_on" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/bioText"
+            style="@style/NameStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingMultiplier="1.2"
+            android:text="@string/bio_text" />
+    </ScrollView>
 
 </LinearLayout>
