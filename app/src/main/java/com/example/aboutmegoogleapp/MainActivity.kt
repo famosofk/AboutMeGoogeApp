@@ -10,5 +10,11 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val linearLayout : LinearLayout = findViewById(R.id.linearLayout)
+
+        var i = 0
+
+        while(5>i){
+            i++
+        }
     }
 }
